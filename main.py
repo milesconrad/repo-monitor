@@ -4,6 +4,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 os.chdir('Path to directory')
+os.system('git pull --rebase origin main')
 last_change = time()
 
 class Watchdog:
